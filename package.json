@@ -1,6 +1,6 @@
 {
   "name": "@joelethan/linkedin-oauth2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "npm package for authenticating with Linkedin using OAuth2 access tokens",
   "main": "lib/index.js",
   "directories": {
@@ -17,7 +17,7 @@
     "authentication",
     "linkedin",
     "token",
-    "auth"
+    "oauth2"
   ],
   "author": {
     "name": "Joel Katusiime",
@@ -25,6 +25,9 @@
     "url": "https://github.com/joelethan"
   },
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelethan/linkedin-oauth2/issues"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "node-fetch": "^2.6.0"
