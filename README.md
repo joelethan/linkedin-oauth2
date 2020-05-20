@@ -36,12 +36,12 @@ Requested for authorization code.
 GET https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=LINKEDIN_KEY&redirect_uri=linkedinRedirectUrl&state=DCEeFWf45A53sdfKef424&scope=r_liteprofile%20r_emailaddress%20w_member_social
 ~~~
 
-Once redirected to a login page. Enter credentials to recieve an `access_token`.
+Once redirected to the Linkedin login page, Enter credentials to recieve an `access_token`.
 
 Copy the `access_token` and pass it as a query parameter as below
 
 ~~~
-http://127.0.0.1:3000/linkedin?access_token=AQXZ84hgiJjlB2ka61WrVbNTB74tUKv3gHZ
+http://localhost:8080/linkedin?access_token=AQXZ84hgiJjlB2ka61WrVbNTB74tUKv3gHZ
 ~~~
 
 For more clarity on the LinkedIn API Configuration, read [this](https://docs.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow?context=linkedin/consumer/context)
